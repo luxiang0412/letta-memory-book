@@ -1,0 +1,17 @@
+{
+  "name": "letta-memory-book",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "figures": "python3 scripts/figures/build.py"
+  },
+  "devDependencies": {
+    "medium-zoom": "^1.1.0",
+    "mermaid": "^11.17.2",
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-mermaid": "^2.0.17"
+  }
+}

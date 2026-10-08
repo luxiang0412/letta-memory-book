@@ -1,0 +1,4 @@
+/* medium-zoom overlay must sit above VitePress' fixed nav/sidebar */
+.medium-zoom-overlay { z-index: 100; }
+.medium-zoom-image--opened { z-index: 101; }
+.vp-doc img { cursor: zoom-in; }

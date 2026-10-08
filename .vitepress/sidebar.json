@@ -1,0 +1,10 @@
+[
+  {"text": "Part 0 导读", "items": ["00-how-to-read"]},
+  {"text": "Part I 全景", "items": ["01-why-memory", "02-memory-map", "03-life-of-a-memory", "lab-1-minimal-agent"]},
+  {"text": "Part II 记忆即文件：MemFS", "items": ["04-blocks-to-files", "05-memfs-v2-layout", "06-git-as-memory", "07-gatekeepers", "lab-2-memfs"]},
+  {"text": "Part III 编译：从记忆到系统提示", "items": ["08-prompt-compiler", "09-when-to-recompile", "10-teaching-memory", "lab-3-living-persona"]},
+  {"text": "Part IV 上下文窗口与 recall", "items": ["11-context-budget", "12-compaction", "13-recall", "lab-4-long-conversations"]},
+  {"text": "Part V 睡眠时间：后台反思", "items": ["14-reflection-triggers", "15-reflection-subagent", "16-worktree-merge", "17-concurrent-writers", "lab-5-sleeptime"]},
+  {"text": "Part VI 平台化", "items": ["18-sync", "19-isolation", "20-observability", "lab-6-palace"]},
+  {"text": "附录", "items": ["appendix/a-source-map", "appendix/b-glossary", "appendix/c-comparison", "appendix/d-answers"]}
+]
