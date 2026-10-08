@@ -1,7 +1,8 @@
 # 从 Letta Code 到 Mini-Letta：给 Agent 装上会成长的记忆
 
+> 在线阅读：https://luxiang0412.github.io/letta-memory-book/
 > 读 [letta-ai/letta-code](https://github.com/letta-ai/letta-code)（`70ead335`）记忆子系统的源码，从零写一个带 **git 记忆、系统提示编译、上下文压缩、后台反思、多机同步与隔离** 的 agent。
-> 配套代码：本仓库的 `code/mini-letta` 目录（独立的 git 仓库；Bun + TypeScript，`v0.1` → `v1.0`，每个 Part 一个 tag）。
+> 配套代码：[github.com/luxiang0412/mini-letta](https://github.com/luxiang0412/mini-letta)（本地位于 `code/mini-letta`；Bun + TypeScript，`v0.1` → `v1.0`，每个 Part 一个 tag）。
 
 **读完这本书，你能从零写出一个带长期记忆的 agent**：它的记忆是 git 仓库里的 Markdown 文件，只有已提交的记忆会被编译进系统提示；对话中途的记忆变化以 `<memory_update>` 告知模型而不破坏提示缓存；长对话会在溢出前自动压缩，被压掉的细节能用 recall 找回；对话之后，一个反思子 agent 在隔离的 git worktree 里整理记忆，再由一个六状态的收尾状态机合并回来；记忆能在多台机器之间同步，同一台机器上的其他 agent 看不到它。
 
